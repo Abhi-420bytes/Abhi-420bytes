@@ -1,107 +1,152 @@
 <h1 align="center">Hi 👋, I'm Challa Abhiram</h1>
-<h3 align="center">Computer Science Undergraduate | Full Stack Developer | AI & Cloud Enthusiast</h3>
+
+<h3 align="center">
+Computer Science Undergraduate • Full Stack Developer • AI & Machine Learning Enthusiast
+</h3>
 
 <p align="center">
   <a href="https://github.com/Abhi-420bytes">
-    <img src="https://komarev.com/ghpvc/?username=Abhi-420bytes&label=Profile%20Views&color=0e75b6&style=flat" alt="profile views"/>
+    <img src="https://komarev.com/ghpvc/?username=Abhi-420bytes&label=Profile%20Views&color=0e75b6&style=flat" />
+  </a>
+
+  <a href="https://github.com/Abhi-420bytes?tab=followers">
+    <img src="https://img.shields.io/github/followers/Abhi-420bytes?label=Followers&style=social"/>
+  </a>
+
+  <a href="https://github.com/Abhi-420bytes">
+    <img src="https://img.shields.io/github/stars/Abhi-420bytes?affiliations=OWNER&style=social"/>
   </a>
 </p>
 
 ---
 
-## 👨‍💻 About Me
+# 👨‍💻 About Me
 
-🎓 B.Tech Computer Science Student at **Amrita Vishwa Vidyapeetham**
+🎓 B.Tech Computer Science Engineering Student at **Amrita Vishwa Vidyapeetham**
 
-💡 Passionate about **Full Stack Development, AI, Cloud Computing, and Backend Systems**
+💻 Passionate about
 
-🚀 Building scalable web applications and AI-powered solutions.
+- Artificial Intelligence
+- Full Stack Development
+- Machine Learning
+- Backend Development
+- Cloud Computing
+
+🚀 I enjoy building scalable web applications, AI-powered solutions, automation workflows, and intelligent software systems.
 
 🌱 Currently learning
+
 - System Design
-- Cloud Technologies (AWS)
-- Backend Architecture
-- Machine Learning
+- Cloud Architecture (AWS)
+- DevOps
+- Advanced Machine Learning
 
 ---
 
-## 🛠 Tech Stack
+# ⚡ Tech Stack
 
-### Languages
+### Programming Languages
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 
+---
+
 ### Frontend
-![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap)
+![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js)
+
+---
 
 ### Backend
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-black?style=for-the-badge&logo=express&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
 
-### Databases
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-red?style=for-the-badge&logo=redis&logoColor=white)
+![NodeJS](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js)
+![Express](https://img.shields.io/badge/Express-black?style=for-the-badge&logo=express)
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django)
+
+---
+
+### Database
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb)
+![Redis](https://img.shields.io/badge/Redis-red?style=for-the-badge&logo=redis)
+
+---
 
 ### Tools
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
-![VS Code](https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
+
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode)
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n)
 
 ---
 
-## 🚀 Featured Projects
+# 💼 Experience
 
-### 🏢 Sri Vari Water Solutions
-A full-stack business management platform with role-based access, real-time notifications, inventory management, payroll, analytics dashboards, QR scanning, and delivery tracking.
+## Data Scientist Intern — AiSPRY
 
-**Tech:** Next.js • Node.js • Express • PostgreSQL • Prisma • Supabase • TypeScript
-
----
-
-### 💼 Opportunity Quest
-Career exploration platform with secure authentication, API integration, personalized job discovery, and responsive dashboards.
-
-**Tech:** Django • Python • HTML • CSS • JavaScript
+- Data preprocessing and feature engineering
+- Built Machine Learning workflows
+- Automated pipelines using n8n
+- Model evaluation using Precision, Recall, Accuracy and F1 Score
 
 ---
 
-### 🚦 AI-Driven Traffic Simulation
-AI-powered traffic simulation with dynamic lane allocation to reduce congestion using AutoGen and Pygame.
+# 🚀 Featured Projects
 
-**Tech:** Python • SQL • Pygame • AutoGen
+## 🏢 Sri Vari Water Solutions
 
----
+A full-stack business management platform with role-based authentication, inventory management, payroll, customer portal, real-time notifications and analytics dashboards.
 
-## 💼 Experience
-
-### Data Scientist Intern — AiSPRY
-
-- Data preprocessing & feature engineering
-- Workflow automation using n8n
-- Machine Learning model development
-- Performance evaluation using Precision, Recall & F1 Score
+🔗 https://github.com/Abhi-420bytes/srivari-project
 
 ---
 
-## 🏆 Certifications
+## 💼 Opportunity Quest
 
-✔ AWS Academy Graduate — Cloud Foundations
-
-✔ Deloitte Australia — Technology Job Simulation
+Career exploration platform with secure authentication, job APIs, dashboards and intelligent career discovery.
 
 ---
 
-## 📊 GitHub Stats
+## 🚦 AI Driven Traffic Simulation
+
+AI-based traffic simulation using dynamic lane partitioning to reduce congestion and optimize traffic flow.
+
+---
+
+# 📂 My Repositories
+
+| Repository | Description |
+|------------|-------------|
+| 🔗 **Sri Vari Water Solutions** | https://github.com/Abhi-420bytes/srivari-project |
+| 🔗 **Adaptive Green Datacenter Scheduler** | https://github.com/Abhi-420bytes/adaptive-green-datacenter-scheduler |
+| 🔗 **Protein AI Structural Intelligence** | https://github.com/Abhi-420bytes/protein-ai-structural-intelligence |
+| 🔗 **Voice Biometric Authentication** | https://github.com/Abhi-420bytes/voice-biometric-authentication |
+| 🔗 **Smart Maint** | https://github.com/Abhi-420bytes/smart-maint |
+| 🔗 **Legal Document Analysis System** | https://github.com/Abhi-420bytes/legal-document-analysis-system |
+| 🔗 **Retinal Disease Classification** | https://github.com/Abhi-420bytes/retinal-disease-classification |
+| 🔗 **GitHub Profile README** | https://github.com/Abhi-420bytes/Abhi-420bytes |
+
+---
+
+# 🏆 Certifications
+
+✅ AWS Academy Graduate — Cloud Foundations
+
+✅ Deloitte Australia Technology Job Simulation
+
+---
+
+# 📈 GitHub Statistics
 
 <p align="center">
 
@@ -119,26 +164,36 @@ AI-powered traffic simulation with dynamic lane allocation to reduce congestion 
 
 ---
 
-## 🌐 Connect With Me
+# 🌐 Connect with Me
 
-<p align="left">
+<p align="center">
 
-<a href="https://github.com/Abhi-420bytes">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github"/>
+<a href="mailto:mr.abhiram5826@gmail.com">
+<img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 
 <a href="https://www.linkedin.com/in/abhi-ram-9003b9299">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin"/>
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 
-<a href="mailto:mr.abhiram5826@gmail.com">
-<img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail"/>
+<a href="https://github.com/Abhi-420bytes">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
 </p>
 
 ---
 
-<h3 align="center">
-⭐ Thanks for visiting my profile! ⭐
-</h3>
+# 💡 Quote
+
+> *"Learning never exhausts the mind. Every project is an opportunity to build something impactful."*
+
+---
+
+<p align="center">
+
+### ⭐ Thanks for visiting my profile!
+
+If you like my work, consider giving a ⭐ to my repositories.
+
+</p>
