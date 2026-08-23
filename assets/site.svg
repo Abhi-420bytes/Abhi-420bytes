@@ -1,0 +1,188 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 470" width="1000" height="470" role="img" aria-label="Browser loading abhi-420bytes.github.io — Challa Abhiram's portfolio">
+  <title>abhi-420bytes.github.io — my portfolio</title>
+  <defs>
+    <linearGradient id="chr" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#232329"/><stop offset="100%" stop-color="#1a1a20"/>
+    </linearGradient>
+    <linearGradient id="ld" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff7a1a"/><stop offset="100%" stop-color="#ffb060"/>
+    </linearGradient>
+    <radialGradient id="wash" cx="0.5" cy="0.18" r="0.75">
+      <stop offset="0%" stop-color="#ff7a1a" stop-opacity="0.13"/>
+      <stop offset="100%" stop-color="#ff7a1a" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#ffffff" fill-opacity="0.045"/>
+    </pattern>
+    <filter id="soft" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+    <clipPath id="wc"><rect x="16" y="16" width="968" height="438" rx="14"/></clipPath>
+    <clipPath id="uclipPath"><rect id="uclip" x="176" y="28" width="172" height="22"/></clipPath>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
+      .sans { font-family: "Segoe UI", Inter, Helvetica, Arial, sans-serif; }
+      .serif{ font-family: "DM Serif Display", Georgia, "Times New Roman", serif; }
+      #shell { animation: fade 14s ease-in-out infinite; }
+      @keyframes fade { 0%,1% {opacity:0} 3%,93% {opacity:1} 98%,100% {opacity:0} }
+      #uclip { transform-origin: 176px 0; animation: type 14s steps(23,end) infinite; }
+      @keyframes type { 0%,4% {transform:scaleX(0)} 15%,100% {transform:scaleX(1)} }
+      #ucur { animation: cur 14s steps(23,end) infinite, curvis 14s steps(1,end) infinite; }
+      @keyframes cur { 0%,4% {transform:translateX(0)} 15%,100% {transform:translateX(172px)} }
+      @keyframes curvis { 0%,3.9% {opacity:0} 4%,16% {opacity:1} 16.1%,100% {opacity:0} }
+      #bar { transform-origin: 16px 0; animation: load 14s cubic-bezier(.3,.9,.4,1) infinite; }
+      @keyframes load { 0%,15% {transform:scaleX(0); opacity:1} 21% {transform:scaleX(1); opacity:1} 24%,100% {transform:scaleX(1); opacity:0} }
+      #page { animation: paint 14s ease-out infinite; }
+      @keyframes paint { 0%,20% {opacity:0} 25%,100% {opacity:1} }
+      #hero { animation: rise 14s cubic-bezier(.2,.8,.2,1) infinite; }
+      @keyframes rise { 0%,24% {opacity:0; transform:translateY(14px)} 31%,100% {opacity:1; transform:translateY(0)} }
+      #cta { animation: rise2 14s cubic-bezier(.2,.8,.2,1) infinite; }
+      @keyframes rise2 { 0%,30% {opacity:0; transform:translateY(10px)} 36%,100% {opacity:1; transform:translateY(0)} }
+      #ptr { animation: glide 14s cubic-bezier(.4,0,.2,1) infinite; }
+      @keyframes glide { 0%,40% {opacity:0; transform:translate(300px,90px)} 44% {opacity:1} 56%,100% {opacity:1; transform:translate(0,0)} }
+      #ripple { transform-origin: 452px 402px; animation: rip 14s ease-out infinite; }
+      @keyframes rip { 0%,57% {transform:scale(.2); opacity:0} 58% {opacity:.55} 66%,100% {transform:scale(2.6); opacity:0} }
+      #btnGlow { animation: bg 14s ease-in-out infinite; }
+      @keyframes bg { 0%,57% {opacity:0} 60% {opacity:1} 72% {opacity:.35} 84% {opacity:1} 96%,100% {opacity:.35} }
+      #p0 { transform-origin: 125px 166px; animation: pop0 14s cubic-bezier(.34,1.56,.64,1) infinite; }
+      @keyframes pop0 { 0%,25.0% {opacity:0; transform:scale(.7)} 27.4%,100% {opacity:1; transform:scale(1)} }
+      #p1 { transform-origin: 295px 146px; animation: pop1 14s cubic-bezier(.34,1.56,.64,1) infinite; }
+      @keyframes pop1 { 0%,26.4% {opacity:0; transform:scale(.7)} 28.799999999999997%,100% {opacity:1; transform:scale(1)} }
+      #p2 { transform-origin: 475px 138px; animation: pop2 14s cubic-bezier(.34,1.56,.64,1) infinite; }
+      @keyframes pop2 { 0%,27.8% {opacity:0; transform:scale(.7)} 30.2%,100% {opacity:1; transform:scale(1)} }
+      #p3 { transform-origin: 652px 148px; animation: pop3 14s cubic-bezier(.34,1.56,.64,1) infinite; }
+      @keyframes pop3 { 0%,29.2% {opacity:0; transform:scale(.7)} 31.599999999999998%,100% {opacity:1; transform:scale(1)} }
+      #p4 { transform-origin: 812px 168px; animation: pop4 14s cubic-bezier(.34,1.56,.64,1) infinite; }
+      @keyframes pop4 { 0%,30.6% {opacity:0; transform:scale(.7)} 33.0%,100% {opacity:1; transform:scale(1)} }
+      #p5 { transform-origin: 142px 214px; animation: pop5 14s cubic-bezier(.34,1.56,.64,1) infinite; }
+      @keyframes pop5 { 0%,32.0% {opacity:0; transform:scale(.7)} 34.4%,100% {opacity:1; transform:scale(1)} }
+      #p6 { transform-origin: 342px 204px; animation: pop6 14s cubic-bezier(.34,1.56,.64,1) infinite; }
+      @keyframes pop6 { 0%,33.4% {opacity:0; transform:scale(.7)} 35.8%,100% {opacity:1; transform:scale(1)} }
+      #p7 { transform-origin: 732px 206px; animation: pop7 14s cubic-bezier(.34,1.56,.64,1) infinite; }
+      @keyframes pop7 { 0%,34.8% {opacity:0; transform:scale(.7)} 37.199999999999996%,100% {opacity:1; transform:scale(1)} }
+      #p8 { transform-origin: 885px 220px; animation: pop8 14s cubic-bezier(.34,1.56,.64,1) infinite; }
+      @keyframes pop8 { 0%,36.2% {opacity:0; transform:scale(.7)} 38.6%,100% {opacity:1; transform:scale(1)} }
+      @media (prefers-reduced-motion: reduce) {
+        #shell,#uclip,#ucur,#bar,#page,#hero,#cta,#ptr,#ripple,#btnGlow,#p0,#p1,#p2,#p3,#p4,#p5,#p6,#p7,#p8 { animation: none !important; }
+        #shell,#page,#hero,#cta,#p0,#p1,#p2,#p3,#p4,#p5,#p6,#p7,#p8 { opacity:1 !important; transform:none !important; }
+        #uclip { transform:scaleX(1) !important; }
+        #ucur,#bar,#ripple { opacity:0 !important; } #btnGlow { opacity:.5 !important; }
+      }
+    </style>
+  </defs>
+
+  <rect x="16" y="16" width="968" height="438" rx="14" fill="#0e0e13" stroke="#2b2b33" stroke-width="1.5"/>
+  <g id="shell" clip-path="url(#wc)">
+
+    <!-- browser chrome -->
+    <rect x="16" y="16" width="968" height="46" fill="url(#chr)"/>
+    <line x1="16" y1="62" x2="984" y2="62" stroke="#2b2b33"/>
+    <circle cx="44" cy="39" r="6.5" fill="#ff5f57"/><circle cx="66" cy="39" r="6.5" fill="#febc2e"/><circle cx="88" cy="39" r="6.5" fill="#28c840"/>
+    <path d="M118 33 l-7 6 7 6" fill="none" stroke="#6b6b75" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="140" y="26" width="560" height="26" rx="13" fill="#0d0d11" stroke="#2b2b33"/>
+    <path d="M157 36 v-2.5 a3.4 3.4 0 0 1 6.8 0 V36" fill="none" stroke="#7ee787" stroke-width="1.5"/>
+    <rect x="155.5" y="35.5" width="9.8" height="8" rx="1.8" fill="#7ee787"/>
+    <g clip-path="url(#uclipPath)">
+      <text x="176" y="44" class="mono" font-size="12.5" fill="#d4d4d8">abhi-420bytes.github.io</text>
+    </g>
+    <rect id="ucur" x="176" y="31" width="7" height="15" fill="#ff7a1a"/>
+    <text x="712" y="44" class="sans" font-size="11" fill="#5a5a63">↻</text>
+    <text x="960" y="44" class="sans" font-size="13" fill="#5a5a63" text-anchor="end">⋮</text>
+    <rect id="bar" x="16" y="62" width="968" height="2.5" fill="url(#ld)"/>
+
+    <!-- page -->
+    <g id="page">
+      <rect x="16" y="64" width="968" height="390" fill="#0e0e13"/>
+      <rect x="16" y="64" width="968" height="390" fill="url(#dots)"/>
+      <rect x="16" y="64" width="968" height="300" fill="url(#wash)"/>
+
+      <!-- site nav -->
+      <rect x="48" y="86" width="26" height="26" rx="8" fill="#ff7a1a"/>
+      <text x="61" y="103" class="sans" font-size="11" font-weight="700" fill="#0e0e13" text-anchor="middle">CA</text>
+      <text x="84" y="98" class="sans" font-size="12.5" font-weight="700" fill="#f5f5f4">Challa Abhiram</text>
+      <text x="84" y="110" class="sans" font-size="9.5" fill="#7a7a83">Full-Stack &amp; AI/ML</text>
+        <text x="556" y="101" class="sans" font-size="11.5" fill="#8b8b94">About</text>
+        <text x="614" y="101" class="sans" font-size="11.5" fill="#8b8b94">Skills</text>
+        <text x="668" y="101" class="sans" font-size="11.5" fill="#8b8b94">Experience</text>
+        <text x="752" y="101" class="sans" font-size="11.5" fill="#8b8b94">Work</text>
+        <text x="800" y="101" class="sans" font-size="11.5" fill="#8b8b94">Contact</text>
+      <rect x="856" y="86" width="100" height="27" rx="13.5" fill="#ff7a1a"/>
+      <text x="906" y="103" class="sans" font-size="11" font-weight="600" fill="#1a1005" text-anchor="middle">Get in touch</text>
+
+      <!-- floating tech pills -->
+      <g id="p0">
+        <rect x="90" y="153" width="70" height="26" rx="13" fill="#17171d" stroke="#2b2b33"/>
+        <circle cx="103" cy="166" r="3" fill="#ff7a1a"/>
+        <text x="113" y="170" class="sans" font-size="11" fill="#a1a1aa">Next.js</text>
+      </g>
+      <g id="p1">
+        <rect x="250" y="133" width="90" height="26" rx="13" fill="#17171d" stroke="#2b2b33"/>
+        <circle cx="263" cy="146" r="3" fill="#ff7a1a"/>
+        <text x="273" y="150" class="sans" font-size="11" fill="#a1a1aa">TypeScript</text>
+      </g>
+      <g id="p2">
+        <rect x="430" y="125" width="90" height="26" rx="13" fill="#17171d" stroke="#2b2b33"/>
+        <circle cx="443" cy="138" r="3" fill="#ff7a1a"/>
+        <text x="453" y="142" class="sans" font-size="11" fill="#a1a1aa">PostgreSQL</text>
+      </g>
+      <g id="p3">
+        <rect x="620" y="135" width="64" height="26" rx="13" fill="#17171d" stroke="#2b2b33"/>
+        <circle cx="633" cy="148" r="3" fill="#ff7a1a"/>
+        <text x="643" y="152" class="sans" font-size="11" fill="#a1a1aa">Docker</text>
+      </g>
+      <g id="p4">
+        <rect x="790" y="155" width="44" height="26" rx="13" fill="#17171d" stroke="#2b2b33"/>
+        <circle cx="803" cy="168" r="3" fill="#ff7a1a"/>
+        <text x="813" y="172" class="sans" font-size="11" fill="#a1a1aa">AWS</text>
+      </g>
+      <g id="p5">
+        <rect x="120" y="201" width="44" height="26" rx="13" fill="#17171d" stroke="#2b2b33"/>
+        <circle cx="133" cy="214" r="3" fill="#ff7a1a"/>
+        <text x="143" y="218" class="sans" font-size="11" fill="#a1a1aa">RAG</text>
+      </g>
+      <g id="p6">
+        <rect x="300" y="191" width="83" height="26" rx="13" fill="#17171d" stroke="#2b2b33"/>
+        <circle cx="313" cy="204" r="3" fill="#ff7a1a"/>
+        <text x="323" y="208" class="sans" font-size="11" fill="#a1a1aa">LangChain</text>
+      </g>
+      <g id="p7">
+        <rect x="700" y="193" width="64" height="26" rx="13" fill="#17171d" stroke="#2b2b33"/>
+        <circle cx="713" cy="206" r="3" fill="#ff7a1a"/>
+        <text x="723" y="210" class="sans" font-size="11" fill="#a1a1aa">Python</text>
+      </g>
+      <g id="p8">
+        <rect x="850" y="207" width="70" height="26" rx="13" fill="#17171d" stroke="#2b2b33"/>
+        <circle cx="863" cy="220" r="3" fill="#ff7a1a"/>
+        <text x="873" y="224" class="sans" font-size="11" fill="#a1a1aa">PyTorch</text>
+      </g>
+
+      <!-- hero -->
+      <g id="hero">
+        <rect x="352" y="252" width="296" height="24" rx="12" fill="#17171d" stroke="#2b2b33"/>
+        <circle cx="370" cy="264" r="3.5" fill="#3fb950"/>
+        <text x="382" y="268" class="sans" font-size="10.5" fill="#a1a1aa">Open to SDE &amp; ML internships · Summer 2027 grad</text>
+        <text x="500" y="326" text-anchor="middle" font-size="50">
+          <tspan class="serif" font-style="italic" fill="#ff7a1a">Challa </tspan><tspan class="sans" font-weight="700" fill="#f5f5f4">Abhiram</tspan><tspan class="sans" font-weight="700" fill="#ff7a1a">.</tspan>
+        </text>
+        <text x="500" y="352" text-anchor="middle" class="sans" font-size="13.5" font-weight="600" fill="#d4d4d8">Full-Stack &amp; AI Developer</text>
+        <text x="500" y="372" text-anchor="middle" class="sans" font-size="11" fill="#8b8b94">CS undergraduate at Amrita · Data Scientist Intern at AiSPRY</text>
+      </g>
+
+      <!-- call to action -->
+      <g id="cta">
+        <ellipse id="btnGlow" cx="452" cy="402" rx="76" ry="24" fill="#ff7a1a" opacity="0" filter="url(#soft)"/>
+        <circle id="ripple" cx="452" cy="402" r="30" fill="none" stroke="#ff7a1a" stroke-width="2" opacity="0"/>
+        <rect x="386" y="386" width="132" height="33" rx="16.5" fill="#ff7a1a"/>
+        <text x="452" y="407" class="sans" font-size="12.5" font-weight="600" fill="#1a1005" text-anchor="middle">See work  →</text>
+        <rect x="530" y="386" width="112" height="33" rx="16.5" fill="none" stroke="#3a3a44"/>
+        <text x="586" y="407" class="sans" font-size="12.5" font-weight="600" fill="#d4d4d8" text-anchor="middle">Connect</text>
+      </g>
+
+      <!-- pointer -->
+      <g id="ptr" opacity="0">
+        <path d="M487 397 l0 22 5.4 -5.4 3.4 7.6 3.6 -1.6 -3.4 -7.4 7.4 -0.6 z" fill="#ffffff" stroke="#0e0e13" stroke-width="1.2" stroke-linejoin="round"/>
+      </g>
+    </g>
+  </g>
+  <rect x="16" y="16" width="968" height="438" rx="14" fill="none" stroke="#3a3a44" stroke-width="1.5"/>
+</svg>

@@ -8,6 +8,9 @@
 </p>
 
 <p align="center">
+  <a href="https://abhi-420bytes.github.io">
+    <img src="https://img.shields.io/badge/Portfolio-ff7a1a?style=for-the-badge&logo=googlechrome&logoColor=1a1005" alt="Portfolio" />
+  </a>
   <a href="https://www.linkedin.com/in/abhi-ram-9003b9299">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
@@ -40,6 +43,27 @@
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhi-420bytes/Abhi-420bytes/output/snake.svg" />
     <img alt="Snake eating my contribution graph" src="https://raw.githubusercontent.com/Abhi-420bytes/Abhi-420bytes/output/snake.svg" />
   </picture>
+</p>
+
+<img src="./assets/divider.svg" width="100%" alt="" />
+
+## `~/open --portfolio`
+
+<p align="center">
+  <a href="https://abhi-420bytes.github.io">
+    <img src="./assets/site.svg" alt="abhi-420bytes.github.io — my portfolio. Click to open it." width="100%" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://abhi-420bytes.github.io">
+    <img src="https://img.shields.io/badge/abhi--420bytes.github.io-ff7a1a?style=for-the-badge&logo=googlechrome&logoColor=1a1005&labelColor=1a1005&color=ff7a1a" alt="Open abhi-420bytes.github.io" />
+  </a>
+</p>
+
+<p align="center">
+  <i>The window above isn't a screenshot — it's an SVG that types the URL, loads the bar and clicks the button.<br/>
+  The real thing is one click away, and it has the case studies this README only summarises.</i>
 </p>
 
 <img src="./assets/divider.svg" width="100%" alt="" />
