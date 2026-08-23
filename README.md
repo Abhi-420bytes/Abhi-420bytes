@@ -25,7 +25,7 @@
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Abhi-420bytes&label=Profile+views&color=58a6ff&style=flat-square" alt="Profile views" />
   <img src="https://img.shields.io/github/followers/Abhi-420bytes?label=Followers&style=flat-square&color=7ee787&labelColor=161b22" alt="Followers" />
-  <img src="https://img.shields.io/badge/Focus-SDE%20%2F%20ML%20Internships-d2a8ff?style=flat-square&labelColor=161b22" alt="Focus" />
+  <img src="https://img.shields.io/badge/Focus-SDE%20%2F%20ML%20Opportunities-d2a8ff?style=flat-square&labelColor=161b22" alt="Focus" />
   <img src="https://img.shields.io/badge/Based%20in-Bengaluru,%20India-ffa657?style=flat-square&labelColor=161b22" alt="Location" />
 </p>
 
@@ -90,7 +90,7 @@ touch, and the **model or pipeline** quietly making it smart underneath. Most of
 close that gap: a business platform with real role-based access, a traffic simulator that reasons about lanes, a
 protein-structure tool, a scheduler that chases greener compute.
 
-**Right now:** grinding System Design and AWS, and open to **SDE / ML internship** opportunities.
+**Right now:** grinding System Design and AWS, and open to **SDE / ML opportunities** — internships now, full-time from 2027.
 The fastest way to reach me is [email](mailto:mr.abhiram5826@gmail.com) or [LinkedIn](https://www.linkedin.com/in/abhi-ram-9003b9299).
 
 </details>
@@ -167,9 +167,9 @@ The fastest way to reach me is [email](mailto:mr.abhiram5826@gmail.com) or [Link
 ## `~/experience.log`
 
 ```console
-$ tail -f experience.log
+$ cat experience.log
 
-[ Nov 2025 → Jan 2026 ]  AiSPRY  ·  Data Scientist Intern
+[ Nov 2025 → Jan 2026 ]  AiSPRY  ·  Data Scientist Intern  ·  completed ✓
   ├─ cleaned, preprocessed and feature-engineered raw datasets
   ├─ built end-to-end machine learning workflows
   ├─ automated recurring data pipelines with n8n
@@ -381,7 +381,7 @@ $ tail -f experience.log
 </p>
 
 <p align="center">
-  <i>Open to SDE and ML internship opportunities — say hi, I reply.</i>
+  <i>Open to SDE and ML opportunities, internships and full-time alike — say hi, I reply.</i>
 </p>
 
 <details>

@@ -185,7 +185,7 @@
       <g class="mono">
         <text id="r1" x="48" y="300" class="mono role" fill="#79c0ff">▸ Full Stack Developer</text>
         <text id="r2" x="48" y="300" class="mono role" fill="#d2a8ff">▸ AI &amp; Machine Learning Engineer</text>
-        <text id="r3" x="48" y="300" class="mono role" fill="#ffa657">▸ Ex-Data Scientist Intern @ AiSPRY</text>
+        <text id="r3" x="48" y="300" class="mono role" fill="#ffa657">▸ Data Scientist Intern @ AiSPRY (completed)</text>
         <text id="r4" x="48" y="300" class="mono role" fill="#7ee787">▸ B.Tech CSE @ Amrita Vishwa Vidyapeetham</text>
       </g>
 
@@ -201,7 +201,7 @@
     <rect x="16" y="366" width="968" height="38" fill="#161b22"/>
     <line x1="16" y1="366" x2="984" y2="366" stroke="#30363d" stroke-width="1"/>
     <circle id="live" cx="48" cy="385" r="5" fill="#3fb950"/>
-    <text x="64" y="390" class="mono out">open to SDE / ML internships</text>
+    <text x="64" y="390" class="mono out">open to SDE / ML opportunities</text>
     <text x="500" y="390" class="mono out" text-anchor="middle">Bengaluru, India · IST (UTC+5:30)</text>
     <text x="952" y="390" class="mono out" text-anchor="end">building · shipping · learning</text>
 
