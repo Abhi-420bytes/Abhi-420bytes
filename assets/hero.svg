@@ -1,0 +1,215 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 420" width="1000" height="420" role="img" aria-label="Terminal typing out: Challa Abhiram, Full Stack Developer and AI/ML Engineer">
+  <title>Challa Abhiram — Full Stack Developer &amp; AI/ML Engineer</title>
+
+  <defs>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"  stop-color="#0d1117"/>
+      <stop offset="55%" stop-color="#0b1020"/>
+      <stop offset="100%" stop-color="#10141f"/>
+    </linearGradient>
+
+    <linearGradient id="chrome" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1b2230"/>
+      <stop offset="100%" stop-color="#141a25"/>
+    </linearGradient>
+
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#7ee787"/>
+      <stop offset="35%"  stop-color="#56d4dd"/>
+      <stop offset="70%"  stop-color="#79c0ff"/>
+      <stop offset="100%" stop-color="#d2a8ff"/>
+    </linearGradient>
+
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="45%"  stop-color="#ffffff" stop-opacity="0.85"/>
+      <stop offset="55%"  stop-color="#ffffff" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#7ee787"/>
+      <stop offset="100%" stop-color="#d2a8ff" stop-opacity="0.15"/>
+    </linearGradient>
+
+    <linearGradient id="sweep" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#58a6ff" stop-opacity="0"/>
+      <stop offset="50%"  stop-color="#58a6ff" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="vignette" cx="0.5" cy="0.4" r="0.75">
+      <stop offset="55%"  stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.45"/>
+    </radialGradient>
+
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#8b949e" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="2" fill="#000000" fill-opacity="0.16"/>
+    </pattern>
+
+    <filter id="glow" x="-25%" y="-60%" width="150%" height="220%">
+      <feGaussianBlur stdDeviation="7" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <clipPath id="win"><rect x="16" y="16" width="968" height="388" rx="14"/></clipPath>
+    <clipPath id="clip1"><rect id="w1" x="100" y="80" width="70" height="30"/></clipPath>
+    <clipPath id="clip3"><rect id="w3" x="100" y="242" width="138" height="30"/></clipPath>
+    <clipPath id="clipName"><rect id="wn" x="46" y="140" width="600" height="72"/></clipPath>
+    <clipPath id="nameShape"><text x="48" y="196" class="nm">CHALLA ABHIRAM</text></clipPath>
+
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+      .p  { fill:#7ee787; font-size:19px; }
+      .d  { fill:#79c0ff; font-size:19px; }
+      .c  { fill:#e6edf3; font-size:19px; }
+      .out{ fill:#8b949e; font-size:13px; }
+      .nm { font-family:"Segoe UI", Inter, Helvetica, Arial, sans-serif; font-size:60px; font-weight:800; letter-spacing:1.5px; }
+      .role { font-size:21px; font-weight:600; }
+
+      /* one 16s master loop — every timed element is keyed in % of it */
+      #content { animation: cycle 16s ease-in-out infinite; }
+      @keyframes cycle { 0%,2% {opacity:0} 4%,96% {opacity:1} 99%,100% {opacity:0} }
+
+      /* line 1 — typing "whoami" (6 chars) */
+      #w1  { transform-origin:100px 0; animation: type6 16s steps(6,end) infinite; }
+      #cur1{ animation: run6 16s steps(6,end) infinite, show1 16s steps(1,end) infinite; }
+      @keyframes type6 { 0%,5% {transform:scaleX(0)} 11%,100% {transform:scaleX(1)} }
+      @keyframes run6  { 0%,5% {transform:translateX(0)} 11%,100% {transform:translateX(68px)} }
+      @keyframes show1 { 0%,4.9% {opacity:0} 5%,12% {opacity:1} 12.1%,100% {opacity:0} }
+      #l1 { animation: appear 16s steps(1,end) infinite; }
+      @keyframes appear { 0%,3.9% {opacity:0} 4%,100% {opacity:1} }
+
+      /* the name — wipe in, then shine sweeps across twice */
+      #wn { transform-origin:46px 0; animation: wipe 16s cubic-bezier(.2,.8,.2,1) infinite; }
+      @keyframes wipe { 0%,13% {transform:scaleX(0)} 21%,100% {transform:scaleX(1)} }
+      #glowName { animation: pulse 16s ease-in-out infinite; }
+      @keyframes pulse { 0%,13% {opacity:0} 17% {opacity:.85} 24%,100% {opacity:.32} }
+      #shineBar { animation: sweep 16s linear infinite; }
+      @keyframes sweep {
+        0%,21% {transform:translateX(-420px)}
+        31%    {transform:translateX(700px)}
+        63%    {transform:translateX(-420px)}
+        73%,100%{transform:translateX(700px)}
+      }
+      #ul { transform-origin:48px 0; animation: grow 16s cubic-bezier(.2,.8,.2,1) infinite; }
+      @keyframes grow { 0%,21% {transform:scaleX(0)} 27%,100% {transform:scaleX(1)} }
+
+      /* line 3 — typing "cat role.txt" (12 chars) */
+      #l3 { animation: appear3 16s steps(1,end) infinite; }
+      @keyframes appear3 { 0%,26.9% {opacity:0} 27%,100% {opacity:1} }
+      #w3  { transform-origin:100px 0; animation: type12 16s steps(12,end) infinite; }
+      #cur3{ animation: run12 16s steps(12,end) infinite, show3 16s steps(1,end) infinite; }
+      @keyframes type12 { 0%,28% {transform:scaleX(0)} 34%,100% {transform:scaleX(1)} }
+      @keyframes run12  { 0%,28% {transform:translateX(0)} 34%,100% {transform:translateX(137px)} }
+      @keyframes show3  { 0%,27.9% {opacity:0} 28%,35% {opacity:1} 35.1%,100% {opacity:0} }
+
+      /* the role reel */
+      .role { opacity:0; }
+      #r1 { animation: reel1 16s ease-out infinite; }
+      #r2 { animation: reel2 16s ease-out infinite; }
+      #r3 { animation: reel3 16s ease-out infinite; }
+      #r4 { animation: reel4 16s ease-out infinite; }
+      @keyframes reel1 { 0%,35% {opacity:0; transform:translateY(9px)} 38%,48% {opacity:1; transform:translateY(0)} 51%,100% {opacity:0; transform:translateY(-9px)} }
+      @keyframes reel2 { 0%,51% {opacity:0; transform:translateY(9px)} 54%,62% {opacity:1; transform:translateY(0)} 65%,100% {opacity:0; transform:translateY(-9px)} }
+      @keyframes reel3 { 0%,65% {opacity:0; transform:translateY(9px)} 68%,76% {opacity:1; transform:translateY(0)} 79%,100% {opacity:0; transform:translateY(-9px)} }
+      @keyframes reel4 { 0%,79% {opacity:0; transform:translateY(9px)} 82%,100% {opacity:1; transform:translateY(0)} }
+
+      /* the resting prompt */
+      #l4 { animation: appear4 16s steps(1,end) infinite; }
+      @keyframes appear4 { 0%,35.9% {opacity:0} 36%,100% {opacity:1} }
+      #blink { animation: blink 1.05s steps(1,end) infinite; }
+      @keyframes blink { 0%,55% {opacity:1} 56%,100% {opacity:0} }
+
+      /* CRT scan sweep + live dot */
+      #crt { animation: fall 7.5s linear infinite; }
+      @keyframes fall { 0% {transform:translateY(-140px)} 100% {transform:translateY(430px)} }
+      #live { animation: beat 2.2s ease-in-out infinite; }
+      @keyframes beat { 0%,100% {opacity:1} 50% {opacity:.25} }
+
+      @media (prefers-reduced-motion: reduce) {
+        #content,#w1,#cur1,#l1,#wn,#glowName,#shineBar,#ul,#l3,#w3,#cur3,
+        #r1,#r2,#r3,#r4,#l4,#blink,#crt,#live { animation: none !important; }
+        #content,#l1,#l3,#l4,#r1 { opacity:1 !important; }
+        #r2,#r3,#r4,#cur1,#cur3 { opacity:0 !important; }
+      }
+    </style>
+  </defs>
+
+  <rect width="1000" height="420" fill="none"/>
+  <rect x="16" y="16" width="968" height="388" rx="14" fill="url(#screen)" stroke="#30363d" stroke-width="1.5"/>
+
+  <g clip-path="url(#win)">
+    <rect x="16" y="54" width="968" height="350" fill="url(#grid)"/>
+
+    <!-- window chrome -->
+    <rect x="16" y="16" width="968" height="38" fill="url(#chrome)"/>
+    <line x1="16" y1="54" x2="984" y2="54" stroke="#30363d" stroke-width="1"/>
+    <circle cx="44" cy="35" r="6.5" fill="#ff5f57"/>
+    <circle cx="66" cy="35" r="6.5" fill="#febc2e"/>
+    <circle cx="88" cy="35" r="6.5" fill="#28c840"/>
+    <text x="500" y="40" class="mono out" text-anchor="middle" fill="#7d8590">abhiram@github — ~/profile — zsh</text>
+
+    <g id="content">
+      <!-- $ whoami -->
+      <g id="l1">
+        <text x="48" y="99" class="mono p">➜</text>
+        <text x="74" y="99" class="mono d">~</text>
+        <g clip-path="url(#clip1)"><text x="100" y="99" class="mono c">whoami</text></g>
+        <rect id="cur1" x="100" y="82" width="11" height="21" fill="#7ee787"/>
+      </g>
+
+      <!-- the name -->
+      <g clip-path="url(#clipName)">
+        <text id="glowName" x="48" y="196" class="nm" fill="url(#name)" filter="url(#glow)" opacity="0">CHALLA ABHIRAM</text>
+        <text x="48" y="196" class="nm" fill="url(#name)">CHALLA ABHIRAM</text>
+        <g clip-path="url(#nameShape)">
+          <rect id="shineBar" x="-180" y="140" width="180" height="76" fill="url(#shine)"/>
+        </g>
+      </g>
+      <rect id="ul" x="48" y="214" width="560" height="3" rx="1.5" fill="url(#rule)"/>
+
+      <!-- $ cat role.txt -->
+      <g id="l3">
+        <text x="48" y="261" class="mono p">➜</text>
+        <text x="74" y="261" class="mono d">~</text>
+        <g clip-path="url(#clip3)"><text x="100" y="261" class="mono c">cat role.txt</text></g>
+        <rect id="cur3" x="100" y="244" width="11" height="21" fill="#7ee787"/>
+      </g>
+
+      <!-- the role reel -->
+      <g class="mono">
+        <text id="r1" x="48" y="300" class="mono role" fill="#79c0ff">▸ Full Stack Developer</text>
+        <text id="r2" x="48" y="300" class="mono role" fill="#d2a8ff">▸ AI &amp; Machine Learning Engineer</text>
+        <text id="r3" x="48" y="300" class="mono role" fill="#ffa657">▸ Ex-Data Scientist Intern @ AiSPRY</text>
+        <text id="r4" x="48" y="300" class="mono role" fill="#7ee787">▸ B.Tech CSE @ Amrita Vishwa Vidyapeetham</text>
+      </g>
+
+      <!-- resting prompt -->
+      <g id="l4">
+        <text x="48" y="342" class="mono p">➜</text>
+        <text x="74" y="342" class="mono d">~</text>
+        <rect id="blink" x="100" y="325" width="11" height="21" fill="#e6edf3"/>
+      </g>
+    </g>
+
+    <!-- status bar -->
+    <rect x="16" y="366" width="968" height="38" fill="#161b22"/>
+    <line x1="16" y1="366" x2="984" y2="366" stroke="#30363d" stroke-width="1"/>
+    <circle id="live" cx="48" cy="385" r="5" fill="#3fb950"/>
+    <text x="64" y="390" class="mono out">open to SDE / ML internships</text>
+    <text x="500" y="390" class="mono out" text-anchor="middle">Bengaluru, India · IST (UTC+5:30)</text>
+    <text x="952" y="390" class="mono out" text-anchor="end">building · shipping · learning</text>
+
+    <!-- CRT overlays -->
+    <rect id="crt" x="16" y="54" width="968" height="130" fill="url(#sweep)"/>
+    <rect x="16" y="16" width="968" height="388" fill="url(#scan)" opacity="0.55"/>
+    <rect x="16" y="16" width="968" height="388" fill="url(#vignette)"/>
+  </g>
+
+  <rect x="16" y="16" width="968" height="388" rx="14" fill="none" stroke="#3d4756" stroke-width="1.5"/>
+</svg>
