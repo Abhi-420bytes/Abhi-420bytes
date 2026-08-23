@@ -28,6 +28,22 @@
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
+## `~/snake --eat-contributions`
+
+<p align="center">
+  <i>Every green square below is a day I pushed something. The snake comes back every 12 hours to eat the new ones.</i>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhi-420bytes/Abhi-420bytes/output/snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhi-420bytes/Abhi-420bytes/output/snake.svg" />
+    <img alt="Snake eating my contribution graph" src="https://raw.githubusercontent.com/Abhi-420bytes/Abhi-420bytes/output/snake.svg" />
+  </picture>
+</p>
+
+<img src="./assets/divider.svg" width="100%" alt="" />
+
 <p align="center">
   <a href="https://github.com/Abhi-420bytes">
     <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=900&color=58A6FF&center=true&vCenter=true&random=false&width=650&lines=Building+scalable+full-stack+web+applications;Training+and+shipping+machine+learning+models;Automating+the+boring+parts+with+n8n+pipelines;Currently+deep+in+System+Design+%26+AWS" alt="What I'm doing" />
@@ -310,22 +326,6 @@ $ tail -f experience.log
 
 <p align="center">
   <img src="https://github-trophies.vercel.app/?username=Abhi-420bytes&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&row=1&column=6" alt="Trophies" />
-</p>
-
-<img src="./assets/divider.svg" width="100%" alt="" />
-
-## `~/snake --eat-contributions`
-
-<p align="center">
-  <i>Every green square below is a day I pushed something. The snake comes back every 12 hours to eat the new ones.</i>
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Abhi-420bytes/Abhi-420bytes/output/snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Abhi-420bytes/Abhi-420bytes/output/snake.svg" />
-    <img alt="Snake eating my contribution graph" src="https://raw.githubusercontent.com/Abhi-420bytes/Abhi-420bytes/output/snake.svg" />
-  </picture>
 </p>
 
 <img src="./assets/divider.svg" width="100%" alt="" />
