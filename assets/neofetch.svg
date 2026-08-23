@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 430" width="1000" height="430" role="img" aria-label="neofetch-style card for Challa Abhiram">
+  <title>abhiram@github — neofetch</title>
+  <defs>
+    <linearGradient id="scr" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/><stop offset="60%" stop-color="#0b1020"/><stop offset="100%" stop-color="#10141f"/>
+    </linearGradient>
+    <linearGradient id="chr" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1b2230"/><stop offset="100%" stop-color="#141a25"/>
+    </linearGradient>
+    <linearGradient id="ag" gradientUnits="userSpaceOnUse" x1="106" y1="0" x2="250" y2="0">
+      <stop offset="0%" stop-color="#7ee787"/><stop offset="50%" stop-color="#56d4dd"/><stop offset="100%" stop-color="#d2a8ff"/>
+    </linearGradient>
+    <linearGradient id="rl" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#30363d"/><stop offset="100%" stop-color="#30363d" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="gl" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="wc"><rect x="16" y="16" width="968" height="398" rx="14"/></clipPath>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
+      #ring  { animation: spin 26s linear infinite; transform-origin: 178px 210px; }
+      @keyframes spin { to { transform: rotate(360deg) } }
+      #ring2 { animation: spin2 18s linear infinite; transform-origin: 178px 210px; }
+      @keyframes spin2 { to { transform: rotate(-360deg) } }
+      .stroke { stroke-dasharray: 260; animation: sketch 18s ease-out infinite; }
+      @keyframes sketch { 0%,1% {stroke-dashoffset:260} 9%,100% {stroke-dashoffset:0} }
+      #logoGlow { animation: lg 18s ease-in-out infinite; }
+      @keyframes lg { 0%,8% {opacity:0} 13% {opacity:.9} 20%,92% {opacity:.35} 97%,100% {opacity:0} }
+      #card { animation: fade 18s ease-in-out infinite; }
+      @keyframes fade { 0%,1% {opacity:0} 4%,92% {opacity:1} 97%,100% {opacity:0} }
+      #head { animation: hd 18s ease-out infinite; }
+      @keyframes hd { 0%,6% {opacity:0} 10%,100% {opacity:1} }
+      #rule { transform-origin: 360px 0; animation: rl 18s cubic-bezier(.2,.8,.2,1) infinite; }
+      @keyframes rl { 0%,9% {transform:scaleX(0)} 15%,100% {transform:scaleX(1)} }
+      #r0 { animation: row0 18s ease-out infinite; }
+      @keyframes row0 { 0%,14.0% {opacity:0; transform:translateX(-8px)} 16.2%,100% {opacity:1; transform:translateX(0)} }
+      #r1 { animation: row1 18s ease-out infinite; }
+      @keyframes row1 { 0%,16.3% {opacity:0; transform:translateX(-8px)} 18.5%,100% {opacity:1; transform:translateX(0)} }
+      #r2 { animation: row2 18s ease-out infinite; }
+      @keyframes row2 { 0%,18.6% {opacity:0; transform:translateX(-8px)} 20.8%,100% {opacity:1; transform:translateX(0)} }
+      #r3 { animation: row3 18s ease-out infinite; }
+      @keyframes row3 { 0%,20.9% {opacity:0; transform:translateX(-8px)} 23.099999999999998%,100% {opacity:1; transform:translateX(0)} }
+      #r4 { animation: row4 18s ease-out infinite; }
+      @keyframes row4 { 0%,23.2% {opacity:0; transform:translateX(-8px)} 25.4%,100% {opacity:1; transform:translateX(0)} }
+      #r5 { animation: row5 18s ease-out infinite; }
+      @keyframes row5 { 0%,25.5% {opacity:0; transform:translateX(-8px)} 27.7%,100% {opacity:1; transform:translateX(0)} }
+      #r6 { animation: row6 18s ease-out infinite; }
+      @keyframes row6 { 0%,27.799999999999997% {opacity:0; transform:translateX(-8px)} 29.999999999999996%,100% {opacity:1; transform:translateX(0)} }
+      #r7 { animation: row7 18s ease-out infinite; }
+      @keyframes row7 { 0%,30.099999999999998% {opacity:0; transform:translateX(-8px)} 32.3%,100% {opacity:1; transform:translateX(0)} }
+      #r8 { animation: row8 18s ease-out infinite; }
+      @keyframes row8 { 0%,32.4% {opacity:0; transform:translateX(-8px)} 34.6%,100% {opacity:1; transform:translateX(0)} }
+      #r9 { animation: row9 18s ease-out infinite; }
+      @keyframes row9 { 0%,34.7% {opacity:0; transform:translateX(-8px)} 36.900000000000006%,100% {opacity:1; transform:translateX(0)} }
+      #s0 { transform-origin: 366px 402px; animation: sw0 18s cubic-bezier(.34,1.56,.64,1) infinite; }
+      @keyframes sw0 { 0%,40.0% {transform:scale(0)} 42.0%,100% {transform:scale(1)} }
+      #s1 { transform-origin: 396px 402px; animation: sw1 18s cubic-bezier(.34,1.56,.64,1) infinite; }
+      @keyframes sw1 { 0%,41.1% {transform:scale(0)} 43.1%,100% {transform:scale(1)} }
+      #s2 { transform-origin: 426px 402px; animation: sw2 18s cubic-bezier(.34,1.56,.64,1) infinite; }
+      @keyframes sw2 { 0%,42.2% {transform:scale(0)} 44.2%,100% {transform:scale(1)} }
+      #s3 { transform-origin: 456px 402px; animation: sw3 18s cubic-bezier(.34,1.56,.64,1) infinite; }
+      @keyframes sw3 { 0%,43.3% {transform:scale(0)} 45.3%,100% {transform:scale(1)} }
+      #s4 { transform-origin: 486px 402px; animation: sw4 18s cubic-bezier(.34,1.56,.64,1) infinite; }
+      @keyframes sw4 { 0%,44.4% {transform:scale(0)} 46.4%,100% {transform:scale(1)} }
+      #s5 { transform-origin: 516px 402px; animation: sw5 18s cubic-bezier(.34,1.56,.64,1) infinite; }
+      @keyframes sw5 { 0%,45.5% {transform:scale(0)} 47.5%,100% {transform:scale(1)} }
+      #s6 { transform-origin: 546px 402px; animation: sw6 18s cubic-bezier(.34,1.56,.64,1) infinite; }
+      @keyframes sw6 { 0%,46.6% {transform:scale(0)} 48.6%,100% {transform:scale(1)} }
+      #s7 { transform-origin: 576px 402px; animation: sw7 18s cubic-bezier(.34,1.56,.64,1) infinite; }
+      @keyframes sw7 { 0%,47.7% {transform:scale(0)} 49.7%,100% {transform:scale(1)} }
+      @media (prefers-reduced-motion: reduce) {
+        #ring,#ring2,.stroke,#logoGlow,#card,#head,#rule,#r0,#r1,#r2,#r3,#r4,#r5,#r6,#r7,#r8,#r9,#s0,#s1,#s2,#s3,#s4,#s5,#s6,#s7 { animation: none !important; }
+        #card,#head,#r0,#r1,#r2,#r3,#r4,#r5,#r6,#r7,#r8,#r9,#s0,#s1,#s2,#s3,#s4,#s5,#s6,#s7 { opacity:1 !important; transform:none !important; }
+        .stroke { stroke-dashoffset:0 !important; } #logoGlow { opacity:.35 !important; }
+      }
+    </style>
+  </defs>
+
+  <rect x="16" y="16" width="968" height="398" rx="14" fill="url(#scr)" stroke="#30363d" stroke-width="1.5"/>
+  <g clip-path="url(#wc)">
+    <rect x="16" y="16" width="968" height="38" fill="url(#chr)"/>
+    <line x1="16" y1="54" x2="984" y2="54" stroke="#30363d"/>
+    <circle cx="44" cy="35" r="6.5" fill="#ff5f57"/><circle cx="66" cy="35" r="6.5" fill="#febc2e"/><circle cx="88" cy="35" r="6.5" fill="#28c840"/>
+    <text x="500" y="40" class="mono" font-size="13" fill="#7d8590" text-anchor="middle">abhiram@github — neofetch</text>
+
+    <g id="card">
+      <!-- logo -->
+      <circle id="ring" cx="178" cy="210" r="118" fill="none" stroke="#30363d" stroke-width="1.5" stroke-dasharray="6 12"/>
+      <circle id="ring2" cx="178" cy="210" r="132" fill="none" stroke="#79c0ff" stroke-opacity="0.25" stroke-width="1.2" stroke-dasharray="40 220"/>
+      <g id="logoGlow" filter="url(#gl)" opacity="0">
+        <path d="M108 286 L178 130 L248 286" fill="none" stroke="url(#ag)" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M136 232 L220 232" fill="none" stroke="url(#ag)" stroke-width="13" stroke-linecap="round"/>
+      </g>
+      <path class="stroke" d="M108 286 L178 130 L248 286" fill="none" stroke="url(#ag)" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+      <path class="stroke" d="M136 232 L220 232" fill="none" stroke="url(#ag)" stroke-width="13" stroke-linecap="round"/>
+
+      <!-- info -->
+      <g id="head">
+        <text x="360" y="105" class="mono" font-size="19" font-weight="700" fill="#79c0ff">abhiram<tspan fill="#484f58">@</tspan><tspan fill="#d2a8ff">github</tspan></text>
+      </g>
+      <rect id="rule" x="360" y="118" width="580" height="1.5" fill="url(#rl)"/>
+      <g id="r0">
+        <text x="360" y="152.0" class="mono" font-size="13.5" font-weight="600" fill="#7ee787">host</text>
+        <text x="470" y="152.0" class="mono" font-size="13.5" fill="#484f58">·</text>
+        <text x="492" y="152.0" class="mono" font-size="13.5" fill="#e6edf3">Amrita Vishwa Vidyapeetham, Bengaluru</text>
+      </g>
+      <g id="r1">
+        <text x="360" y="176.5" class="mono" font-size="13.5" font-weight="600" fill="#7ee787">kernel</text>
+        <text x="470" y="176.5" class="mono" font-size="13.5" fill="#484f58">·</text>
+        <text x="492" y="176.5" class="mono" font-size="13.5" fill="#e6edf3">B.Tech Computer Science · 2023 → 2027</text>
+      </g>
+      <g id="r2">
+        <text x="360" y="201.0" class="mono" font-size="13.5" font-weight="600" fill="#7ee787">uptime</text>
+        <text x="470" y="201.0" class="mono" font-size="13.5" fill="#484f58">·</text>
+        <text x="492" y="201.0" class="mono" font-size="13.5" fill="#e6edf3">3 years of building, still compiling</text>
+      </g>
+      <g id="r3">
+        <text x="360" y="225.5" class="mono" font-size="13.5" font-weight="600" fill="#7ee787">shell</text>
+        <text x="470" y="225.5" class="mono" font-size="13.5" fill="#484f58">·</text>
+        <text x="492" y="225.5" class="mono" font-size="13.5" fill="#7ee787">Python · Java · TypeScript · JavaScript</text>
+      </g>
+      <g id="r4">
+        <text x="360" y="250.0" class="mono" font-size="13.5" font-weight="600" fill="#7ee787">frameworks</text>
+        <text x="470" y="250.0" class="mono" font-size="13.5" fill="#484f58">·</text>
+        <text x="492" y="250.0" class="mono" font-size="13.5" fill="#79c0ff">Next.js · React · Django · Express · FastAPI</text>
+      </g>
+      <g id="r5">
+        <text x="360" y="274.5" class="mono" font-size="13.5" font-weight="600" fill="#7ee787">databases</text>
+        <text x="470" y="274.5" class="mono" font-size="13.5" fill="#484f58">·</text>
+        <text x="492" y="274.5" class="mono" font-size="13.5" fill="#79c0ff">PostgreSQL · MySQL · MongoDB · Redis</text>
+      </g>
+      <g id="r6">
+        <text x="360" y="299.0" class="mono" font-size="13.5" font-weight="600" fill="#7ee787">ml</text>
+        <text x="470" y="299.0" class="mono" font-size="13.5" fill="#484f58">·</text>
+        <text x="492" y="299.0" class="mono" font-size="13.5" fill="#d2a8ff">Transformers · CNNs · RAG · scikit-learn</text>
+      </g>
+      <g id="r7">
+        <text x="360" y="323.5" class="mono" font-size="13.5" font-weight="600" fill="#7ee787">cloud</text>
+        <text x="470" y="323.5" class="mono" font-size="13.5" fill="#484f58">·</text>
+        <text x="492" y="323.5" class="mono" font-size="13.5" fill="#d2a8ff">AWS · Docker · n8n · GitHub Actions</text>
+      </g>
+      <g id="r8">
+        <text x="360" y="348.0" class="mono" font-size="13.5" font-weight="600" fill="#7ee787">packages</text>
+        <text x="470" y="348.0" class="mono" font-size="13.5" fill="#484f58">·</text>
+        <text x="492" y="348.0" class="mono" font-size="13.5" fill="#ffa657">13 public repositories</text>
+      </g>
+      <g id="r9">
+        <text x="360" y="372.5" class="mono" font-size="13.5" font-weight="600" fill="#7ee787">status</text>
+        <text x="470" y="372.5" class="mono" font-size="13.5" fill="#484f58">·</text>
+        <text x="492" y="372.5" class="mono" font-size="13.5" fill="#ffa657">open to SDE / ML internships</text>
+      </g>
+      <rect id="s0" x="352" y="388" width="28" height="14" rx="3" fill="#ff5f57"/>
+      <rect id="s1" x="382" y="388" width="28" height="14" rx="3" fill="#ffa657"/>
+      <rect id="s2" x="412" y="388" width="28" height="14" rx="3" fill="#febc2e"/>
+      <rect id="s3" x="442" y="388" width="28" height="14" rx="3" fill="#7ee787"/>
+      <rect id="s4" x="472" y="388" width="28" height="14" rx="3" fill="#56d4dd"/>
+      <rect id="s5" x="502" y="388" width="28" height="14" rx="3" fill="#79c0ff"/>
+      <rect id="s6" x="532" y="388" width="28" height="14" rx="3" fill="#d2a8ff"/>
+      <rect id="s7" x="562" y="388" width="28" height="14" rx="3" fill="#ff7b72"/>
+    </g>
+  </g>
+  <rect x="16" y="16" width="968" height="398" rx="14" fill="none" stroke="#3d4756" stroke-width="1.5"/>
+</svg>
